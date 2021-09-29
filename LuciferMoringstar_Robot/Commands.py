@@ -49,7 +49,7 @@ async def start(bot, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                                InlineKeyboardButton("😣 Join Updates Channel 😣", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -334,7 +334,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('More Botz', url='https://t.me/MT_Botz'),
+            InlineKeyboardButton('More Botz', url='https://t.me/noufalpowerbot'),
             InlineKeyboardButton('Video', url=f'{TUTORIAL}')
         ]
         ]
