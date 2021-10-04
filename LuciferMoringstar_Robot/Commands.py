@@ -49,7 +49,7 @@ async def start(bot, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("😣 Join Updates Channel 😣", url=invite_link.invite_link)
+                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own😍', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
                     ],
                     [
                         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
@@ -114,15 +114,16 @@ async def start(bot, message):
     else:
         await message.reply_text(
             START_MSG,
+            "https://telegra.ph/file/3c884c4a3f71f3b258843.jpg"
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("⚜ CHANNEL 💫", url="https://t.me/keralamoviesindian")
+                InlineKeyboardButton("🚗MAIN CHANNEL ", url="https://t.me/PC_linkz")
                 ],[
-                InlineKeyboardButton("GROUP", url="https://t.me/Popcorn_group")
-                InlineKeyboardButton("Help", callback_data="help"),
+                InlineKeyboardButton("🚓GROUP "), url="https://t.me/Popcorn_group")
+                InlineKeyboardButton("About", callback_data="about")
                 ]]
             )
         )
@@ -334,7 +335,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('More Botz', url='https://t.me/noufalpowerbot'),
+            InlineKeyboardButton('Our Group', url='https://t.me/Popcorn_group'),
             InlineKeyboardButton('Video', url=f'{TUTORIAL}')
         ]
         ]
