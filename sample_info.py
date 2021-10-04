@@ -23,7 +23,7 @@ COLLECTION_NAME = 'channel_files'  # If you are using the same database, then us
 
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
+**https://telegra.ph/file/3c884c4a3f71f3b258843.jpg**
 
 Here you can search files in inline mode. Just press follwing buttons and start searching.
 """
