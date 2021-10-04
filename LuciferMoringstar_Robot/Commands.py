@@ -117,7 +117,6 @@ async def start(bot, message):
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-             "https://telegra.ph/file/3c884c4a3f71f3b258843.jpg"
                 [[
                 InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
                 InlineKeyboardButton("🚗MAIN CHANNEL ", url="https://t.me/PC_linkz")
