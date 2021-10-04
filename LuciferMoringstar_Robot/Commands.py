@@ -114,7 +114,7 @@ async def start(bot, message):
     else:
         await message.reply_text(
             START_MSG,
-            "https://telegra.ph/file/3c884c4a3f71f3b258843.jpg"
+            ("https://telegra.ph/file/3c884c4a3f71f3b258843.jpg")
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
