@@ -121,7 +121,7 @@ async def start(bot, message):
                 InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
                 InlineKeyboardButton("🚗MAIN CHANNEL ", url="https://t.me/PC_linkz")
                 ],[
-                InlineKeyboardButton("🚓GROUP "), url="https://t.me/Popcorn_group")
+                InlineKeyboardButton("🚓GROUP ", url="https://t.me/Popcorn_group")
                 InlineKeyboardButton("About", callback_data="about")
                 ]]
             )
