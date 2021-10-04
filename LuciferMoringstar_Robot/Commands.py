@@ -118,12 +118,11 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton(" Group ", url="https://t.me/Popcorn_group")
                 InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
                 InlineKeyboardButton("⚜ CHANNEL 💫", url="https://t.me/keralamoviesindian")
                 ],[
                 InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("GROUP", url="https://t.me/Popcorn_group")
                 ]]
             )
         )
