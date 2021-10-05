@@ -49,7 +49,7 @@ async def start(bot, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                                InlineKeyboardButton("😫 Join Updates Channel 😫", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -119,9 +119,9 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("channel", url="https://t.me/keralamoviesindian")
+                InlineKeyboardButton("🛴Channel", url="https://t.me/keralamoviesindian")
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
+                InlineKeyboardButton("🚝GROUP", url="https://t.me/Popcorn_Group")
                 InlineKeyboardButton("About", callback_data="about")
                 ]]
             )
