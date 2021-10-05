@@ -122,7 +122,7 @@ async def start(bot, message):
                 InlineKeyboardButton("🛴Channel", url="https://t.me/keralamoviesindian")
                 ],[
                 InlineKeyboardButton("🚝GROUP", url="https://t.me/Popcorn_Group"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("😎MAINTAINED BY", url="https://t.me/noufalpowerbot")
                 ]]
             )
         )
