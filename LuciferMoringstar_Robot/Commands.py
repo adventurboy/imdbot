@@ -118,11 +118,11 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
+                InlineKeyboardButton("✨CLICK HERE TO SEARCH ✔", switch_inline_query_current_chat=''),
                 InlineKeyboardButton("🛴Channel", url="https://t.me/keralamoviesindian")
                 ],[
                 InlineKeyboardButton("🚝GROUP", url="https://t.me/Popcorn_Group"),
-                InlineKeyboardButton("😎MAINTAINED BY", url="https://t.me/noufalpowerbot")
+                InlineKeyboardButton("😎DEV😎", url="https://t.me/noufalpowerbot")
                 ]]
             )
         )
