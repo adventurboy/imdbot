@@ -120,7 +120,7 @@ async def start(bot, message):
                 [[
                 InlineKeyboardButton("✨CLICK HERE TO SEARCH ✔", switch_inline_query_current_chat=''),
                 InlineKeyboardButton("🛴Channel", url="https://t.me/keralamoviesindian")
-                InlineKeyboardButton("😯OWNNER GROUP AND CHANNELLIST😯", url="https://t.me/PC_linkz")
+                InlineKeyboardButton("😯OWNNER GROUP AND CHANNELLIST😯", url="https://t.me/PC_linkz"),
                 ],[
                 InlineKeyboardButton("🚝GROUP", url="https://t.me/Popcorn_Group"),
                 InlineKeyboardButton("😎DEV😎", url="https://t.me/noufalpowerbot")
