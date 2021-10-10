@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🕊️BOT GROUP🕊️', url="https://t.me/malllumoviesgroups")
+                        InlineKeyboardButton('🕊️BOT GROUP🕊️', url="https://t.me/Alphabotzz")
                     ],
                     [
                         InlineKeyboardButton(' Search again ♂️', switch_inline_query_current_chat='')
@@ -113,16 +113,16 @@ async def start(bot, message):
         )
     else:
         await message.reply_video(
-            video="https://telegra.ph/file/2b81aea93b9df8d3d4df3.mp4",
+            photo="https://telegra.ph/file/3c884c4a3f71f3b258843.jpg",
             caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("😎ⓄⓌⓃⒺⓇ😎", url="https://t.me/noufalpowerbot"),
-                        InlineKeyboardButton("♻️ⒼⓇⓄⓊⓅ♻️", url="https://t.me/Adaarcinema")
+                        InlineKeyboardButton("😎DEV😎", url="https://t.me/noufalpowerbot"),
+                        InlineKeyboardButton("♻️GROUP♻️", url="https://t.me/Adaarcinema")
                     ],
                     [
-                        InlineKeyboardButton("Help🥺", callback_data="help"),
+                        InlineKeyboardButton("🎈Channel✔", url="https://t.me/AlphaBotzz"),
                         InlineKeyboardButton("Search Here♂️", switch_inline_query_current_chat='')
                       ]
                     ]
@@ -336,7 +336,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton("SOURCE CODE😇", url="https://t.me/biriyanikadaaa/3"),
+            InlineKeyboardButton("SOURCE CODE😇", url="https://t.me/AdhavaaBiriyaniKittiyalo"),
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
