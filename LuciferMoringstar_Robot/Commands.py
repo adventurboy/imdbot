@@ -113,7 +113,7 @@ async def start(bot, message):
         )
     else:
         await message.reply_video(
-            'photo'="https://telegra.ph/file/3c884c4a3f71f3b258843.jpg",
+            photo="https://telegra.ph/file/3c884c4a3f71f3b258843.jpg",
             caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [
