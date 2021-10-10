@@ -113,7 +113,7 @@ async def start(bot, message):
         )
     else:
         await message.reply_video(
-            video="https://telegra.ph/file/4d5c17416a75b9768ecf5.mp4",
+            video="https://telegra.ph/file/a036254e7ecad68502cd3.mp4",
             caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [
