@@ -49,7 +49,7 @@ async def start(bot, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("😫 Join Updates Channel 😫", url=invite_link.invite_link)
+                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -84,10 +84,10 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🕊️BOT GROUP🕊️', url="https://t.me/malllumoviesgroups")
                     ],
                     [
-                        InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
+                        InlineKeyboardButton(' Search again ♂️', switch_inline_query_current_chat='')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -112,20 +112,22 @@ async def start(bot, message):
             )
         )
     else:
-        await message.reply_text(
-            START_MSG,
-            parse_mode="Markdown",
-            disable_web_page_preview=True,
+        await message.reply_video(
+            video="https://telegra.ph/file/2b81aea93b9df8d3d4df3.mp4",
+            caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
-                [[
-                InlineKeyboardButton("✨CLICK HERE TO SEARCH ✔", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("🛴Channel", url="https://t.me/keralamoviesindian")
-                ],[
-                InlineKeyboardButton("🚝GROUP", url="https://t.me/Popcorn_Group"),
-                InlineKeyboardButton("😎DEV😎", url="https://t.me/noufalpowerbot")
-                ]]
-            )
-        )
+                [
+                    [
+                        InlineKeyboardButton("😎ⓄⓌⓃⒺⓇ😎", url="https://t.me/noufalpowerbot"),
+                        InlineKeyboardButton("♻️ⒼⓇⓄⓊⓅ♻️", url="https://t.me/Adaarcinema")
+                    ],
+                    [
+                        InlineKeyboardButton("Help🥺", callback_data="help"),
+                        InlineKeyboardButton("Search Here♂️", switch_inline_query_current_chat='')
+                      ]
+                    ]
+                 )
+              )
         StopPropagation
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
@@ -334,8 +336,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('🛴Channels and GROUP link', url='https://t.me/PC_linkz'),
-            InlineKeyboardButton('Video', url=f'{TUTORIAL}')
+            InlineKeyboardButton("SOURCE CODE😇", url="https://t.me/biriyanikadaaa/3"),
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
