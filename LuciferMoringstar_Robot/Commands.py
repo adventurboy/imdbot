@@ -122,8 +122,8 @@ async def start(bot, message):
                         InlineKeyboardButton("♻️GROUP♻️", url="https://t.me/Adaarcinema")
                     ],
                     [
-                        InlineKeyboardButton("🎈Channel✔", url="https://t.me/AlphaBotzz"),
-                        InlineKeyboardButton("Search Here♂️", switch_inline_query_current_chat='')
+                        InlineKeyboardButton("🎭YOU NEED HELP🎭", callback_data="help"),
+                        InlineKeyboardButton("🕶Search Here🎞", switch_inline_query_current_chat='')
                       ]
                     ]
                  )
