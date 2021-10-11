@@ -11,13 +11,10 @@ from .Channel import (
 )
 
 HELP = """
-Basic Commads
+നോകണ്ട ഉണ്ണി എറ്റ് നീ ഉദശിഷ ആൽ അല്ല
+[MOVIE VENNO](https://t.me/Adaarcinema)
 
-no need i will not give
-
-[Our Group for movies](https://t.me/Adaarcinema)
-
-@Popcorn_group
+@Adaarcinema
 """
 
 ABOUT = """
