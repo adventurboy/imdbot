@@ -277,7 +277,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('🎯Update Channel🎯', url='t.me/AlphaBotzz'),
+                    InlineKeyboardButton('🎯Update Channel🎯', url='t.me/PC_linkz'),
                     InlineKeyboardButton('Source Code', url='https://t.me/AdhavaaBiriyaniKittiyalo')
                 ]
                 ]
@@ -286,7 +286,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='t.me/Mo_Tech_YT'),
+                    InlineKeyboardButton('Update Channel', url='t.me/PC_linkz'),
                     InlineKeyboardButton('Source Code', url=f'{TUTORIAL}')
                 ]
                 ]
@@ -323,7 +323,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     )
         elif query.data.startswith("checksub"):
             if AUTH_CHANNEL and not await is_subscribed(client, query):
-                await query.answer("ഓവർമാർട്ട് ആകരുത് 😒",show_alert=True)
+                await query.answer("ഓവർമാർട്ട് ആകരുത് poda😒",show_alert=True)
                 return
             ident, file_id = query.data.split("#")
             filedetails = await get_file_details(file_id)
@@ -357,4 +357,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀next time",show_alert=True)
