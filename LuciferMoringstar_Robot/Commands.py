@@ -117,21 +117,23 @@ async def start(bot, message):
             caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [   
-                        InlineKeyboradButton("➕ Add Me To Your Group ➕", url="https://t.me/NR_Dq_bot?startgroup=true")
+                    [
+                        InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/tg_bots_updates")
                     ],
                     [
-                        InlineKeyboardButton("😎DEV😎", url="https://t.me/noufalpowerbot"),
-                        InlineKeyboardButton("♻️GROUP♻️", url="https://t.me/Adaarcinema")
+                        InlineKeyboardButton("🔍 Search Here", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("😎 About", callback_data="about")
                     ],
                     [
-                        InlineKeyboardButton("🎭YOU NEED HELP🎭", callback_data="help"),
-                        InlineKeyboardButton("🕶Search Here🎞", switch_inline_query_current_chat='')
-                      ]
+                        InlineKeyboardButton("1 Dev", url="https://t.me/noufalpowerbot"),
+                        InlineKeyboardButton("2 Dev", url="https://t.me/noufalpowerbot")
+                    ],
+                    [
+                        InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/NR_Dq_bot?startgroup=true")
                     ]
-                 )
-              )
-        StopPropagation
+                ]
+            )
+        )
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
