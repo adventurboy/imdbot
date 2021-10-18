@@ -118,7 +118,7 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [   
-                        InlineKeyboradButton("⚡ Add Me To Your Group ⚡", url="https://t.me/Filesharearianarobot?startgroup=true")
+                        InlineKeyboradButton("➕ Add Me To Your Group ➕", url="https://t.me/NR_Dq_bot?startgroup=true")
                     ],
                     [
                         InlineKeyboardButton("😎DEV😎", url="https://t.me/noufalpowerbot"),
