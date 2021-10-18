@@ -1,4 +1,6 @@
 import os
+import time
+import random
 import logging
 from pyrogram import Client, filters
 from pyrogram import StopPropagation
@@ -11,6 +13,12 @@ from LuciferMoringstar_Robot.Channel import handle_user_status
 from Database import Database
 from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
+
+PHOTO = [
+    "https://telegra.ph/file/df95077dd6e9fb8695e27.jpg",
+    "https://telegra.ph/file/df95077dd6e9fb8695e27.jpg",
+    "https://telegra.ph/file/df95077dd6e9fb8695e27.jpg"
+]
 
 LOG_CHANNEL = BROADCAST_CHANNEL
 
@@ -113,7 +121,7 @@ async def start(bot, message):
         )
     else:
         await message.reply_video(
-            PHOTO="https://telegra.ph/file/df95077dd6e9fb8695e27.jpg",
+            photo=f"{random.choice(PHOTO)}",
             caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [
