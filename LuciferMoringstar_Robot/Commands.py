@@ -118,7 +118,7 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/tg_bots_updates")
+                        InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/MovieFandaGroup")
                     ],
                     [
                         InlineKeyboardButton("🔍 Search Here", switch_inline_query_current_chat=''),
